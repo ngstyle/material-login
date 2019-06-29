@@ -3,6 +3,12 @@ import { NgModule } from '@angular/core';
 import { MatCardModule } from '@angular/material/card';
 import { HttpClientModule } from '@angular/common/http';
 import { AngularSvgIconModule } from 'angular-svg-icon';
+import { MatInputModule } from '@angular/material/input';
+import { FormsModule } from '@angular/forms';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatIconModule } from '@angular/material';
+import { MatButtonModule } from '@angular/material/button';
+
 
 import { AppComponent } from './app.component';
 
@@ -14,7 +20,12 @@ import { AppComponent } from './app.component';
     BrowserModule,
     MatCardModule,
     HttpClientModule,
-    AngularSvgIconModule
+    AngularSvgIconModule,
+    MatInputModule,
+    FormsModule,
+    BrowserAnimationsModule,
+    MatIconModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
