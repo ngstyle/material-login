@@ -1,0 +1,5 @@
+@import '~@angular/material/theming';
+
+.custom-shadow {
+  @include mat-elevation(16, #D32F2F, 1);
+}
